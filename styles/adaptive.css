@@ -1,0 +1,298 @@
+@media (max-width: 1170px) {
+    .container,
+    .menu-wrapper {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 37px;
+    }
+
+    h3,
+    .properties .icon-cards p,
+    .questions details summary {
+        font-size: 19px;
+    }
+
+    .team .cards-wrapper .card p {
+        font-size: 14px;
+    }
+
+    .offer .offer-wrapper {
+        padding: 150px 0 160px;
+    }
+
+    .about .about-wrapper .about-card {
+        padding: 25px 25px 25px 50px;
+    }
+
+    .about-card .modal-button,
+    .about .about-wrapper .about-card p {
+        font-size: 14px;
+    }
+
+    .about-card .modal-button {
+        padding: 12px 17px;
+    }
+
+    .questions details p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body,
+    .menu-wrapper .nav-menu ul li {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3,
+    .properties .icon-cards p,
+    .questions details summary {
+        font-size: 16px;
+    }
+
+    .menu-wrapper .nav-menu {
+        flex-grow: 1;
+    }
+
+    .menu-wrapper .nav-menu ul {
+        justify-content: space-evenly;
+        flex-grow: 1;
+    }
+
+    .menu-wrapper .modal-button {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .main-cover {
+        background-size: cover;
+    }
+
+    .main-cover .main-info h2 {
+        padding-bottom: 20px;
+    }
+
+    .main-cover .modal-button {
+        padding: 15px 40px;
+    }
+
+    .properties h2,
+    .about {
+        padding-bottom: 70px;
+    }
+
+    .team,
+    .goods {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+
+    .team .cards-wrapper .card .card-info {
+        padding: 20px;
+    }
+
+    .goods .cards-wrapper .card-info {
+        padding: 25px;
+        padding-bottom: 50px;
+    }
+
+    .offer .offer-wrapper .offer-form {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+
+    .offer .offer-wrapper .offer-form h2 {
+        font-size: 26px;
+    }
+
+    .offer .offer-wrapper .offer-form p {
+        padding-bottom: 40px;
+    }
+
+    .offer .offer-wrapper .offer-form .contacts {
+        flex-direction: column;
+        align-self: center;
+        width: 320px;
+        row-gap: 10px;
+    }
+
+    .offer .offer-wrapper .offer-form .button {
+        margin-top: 10px;
+        align-self: center;
+    }
+
+    .offer .success-message {
+        font-size: 15px;
+    }
+
+    .about .about-wrapper .about-card {
+        padding: 20px 20px 20px 30px;
+    }
+
+    .about .about-wrapper .about-card h3::before {
+        width: 20px;
+        height: 20px;
+        left: -25px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .map-block .contacts-block {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 370px;
+    }
+
+    .menu-wrapper {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .logo-wrapper .logo {
+        padding-left: 20px;
+    }
+
+    .menu-wrapper .modal-button {
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+    }
+
+    .logo-wrapper .menu-burger {
+        display: unset;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+
+    .menu-wrapper .nav-menu {
+        display: none;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .menu-wrapper .nav-menu ul {
+        width: 100%;
+        flex-direction: column;
+        flex-grow: 0;
+    }
+
+    .menu-wrapper .nav-menu ul li {
+        padding: 20px 30px;
+        border-bottom: 1px solid #f4f4f4;
+    }
+
+    .menu-wrapper .nav-menu ul li:first-child {
+        border-top: 1px solid #f4f4f4;
+    }
+
+    .menu-wrapper .nav-menu ul li a {
+        display: block;
+    }
+
+    .main-cover {
+        padding: 70px 0;
+        text-align: center;
+    }
+
+    .main-cover .main-info {
+        padding: 40px;
+    }
+
+    .main-cover .main-info h2 {
+        padding-bottom: 0;
+    }
+
+    .main-cover .main-info br {
+        display: none;
+    }
+
+    .main-cover .modal-button {
+        display: block;
+        padding: 15px 40px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .properties .cards-wrapper {
+        margin-left: 0;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .team .cards-wrapper {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .goods .cards-wrapper {
+        grid-template-columns: unset;
+        row-gap: 20px;
+    }
+
+    .offer .offer-wrapper {
+        background-attachment: scroll;
+    }
+
+    .offer .offer-wrapper .offer-form .contacts {
+        width: 290px;
+    }
+
+    .about .about-wrapper .about-card {
+        padding: 20px 20px 20px 40px;
+    }
+
+    .about .about-wrapper .about-card h3::before {
+        left: -30px;
+    }
+
+    .about .about-wrapper {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .about .about-wrapper::before {
+        transform: rotate(90deg);
+    }
+
+    .questions details {
+        padding: 25px 0;
+        padding-right: 50px;
+    }
+
+    .map-block .contacts-block {
+        top: 25%;
+    }
+}
+
+@media (max-width: 480px) {
+    .map-block .contacts-block {
+        margin-right: 15px;
+    }
+}
