@@ -33,6 +33,7 @@ a:hover {
 
 .container {
     max-width: 1170px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -87,6 +88,7 @@ input::placeholder {
 .menu-wrapper {
     max-width: 1170px;
     margin: 10px auto;
+    padding: 0 15px;
     align-items: center;
     display: flex;
     justify-content: space-between;
