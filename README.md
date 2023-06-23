@@ -1,6 +1,6 @@
 # Landing page
 
-This landing page of coffee shop was built with pure HTML, CSS and JS by me just for practicing my skills. Template was found through the web searching.
+This landing page for coffee shop was built with pure HTML, CSS and JS by me just for practicing my skills. Template was found through the web searching.
 
 # Features
 
