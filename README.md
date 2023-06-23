@@ -7,5 +7,5 @@ This landing page for coffee shop was built with pure HTML, CSS and JS by me jus
 -   responsive design
 -   flex and grid layouts
 -   burger menu for <600 wide screens
--   modal window for checkout, which preventing page scrolling while open
+-   modal window for checkout, which prevent page scrolling while open
 -   animated icons in faq
